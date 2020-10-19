@@ -3,6 +3,7 @@ layout: post
 title:  "How to add a Service Worker to your Progressive Web App (PWA) using Workbox and Rollup"
 date:   2020-08-08 00:00:00 -0500
 categories: service-worker pwa workbox rollup
+author: Jason Lutterloh
 ---
 
 # How to add a Service Worker to your Progressive Web App (PWA) using Workbox and Rollup

@@ -3,6 +3,7 @@ layout: post
 title:  "Why I Removed Google Analytics"
 date:   2020-10-13 00:00:00 -0500
 categories: google-analytics privacy
+author: Jason Lutterloh
 ---
 
 # Why I Removed Google Analytics
