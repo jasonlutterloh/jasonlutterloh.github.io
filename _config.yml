@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Jason Lutterloh | Blog
+title: Jason Lutterloh
 email: 
 description: >- # this means to ignore newlines until "baseurl:"
   Jason Lutterloh is a full-stack software engineer who is passionate about both personal and front-end development. He relentlessly focuses on the execution of his projects, building collaborative relationships with his business partners, and helping his teams grow. In his spare time, he enjoys small open-source development projects and writing for his blog.
