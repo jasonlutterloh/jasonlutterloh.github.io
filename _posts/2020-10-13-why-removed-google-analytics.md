@@ -1,4 +1,11 @@
-## Why I Removed Google Analytics
+---
+layout: post
+title:  "Why I Removed Google Analytics"
+date:   2020-10-13 00:00:00 -0500
+categories: google-analytics privacy
+---
+
+# Why I Removed Google Analytics
 
 Every so often I go through a phase where I decide to care about my online privacy. A complete and total lack of online privacy may seem inevitable at this point, but nonetheless, I don't like the idea of being tracked online. One of the steps I took in my recent foray into anonymous browsing, was to install Brave, a privacy-focused browser, which professes to block ads and trackers. I also installed uBlock and Privacy Badger on my Chromebook to hopefully accomplish some of the same things. 
 

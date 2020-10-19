@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Why I Enjoy Styling With Svelte"
+date:   2020-07-10 00:00:00 -0500
+categories: svelte css
+---
+
 ## Why I Enjoy Styling With Svelte
 
 I started using Svelte a couple of months ago for my  [Peloton Metrics](https://github.com/jasonlutterloh/metrics-peloton) project with the promise that it would lead to a simple development process. I’ve used React in the past for enterprise-level applications but it always seemed like overkill for what I was doing in my spare time and I never liked how it handled styling. Svelte is the perfect fit I was looking for and I'll explain why.
