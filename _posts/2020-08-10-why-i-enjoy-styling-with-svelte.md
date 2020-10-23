@@ -2,7 +2,6 @@
 layout: post
 title:  "Why I Enjoy Styling With Svelte"
 date:   2020-07-10 00:00:00 -0500
-categories: svelte css
 author: Jason Lutterloh
 ---
 

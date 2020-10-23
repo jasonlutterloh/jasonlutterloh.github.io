@@ -2,7 +2,6 @@
 layout: post
 title:  "An Elegant Svelte Trivia Quiz Application"
 date:   2020-10-12 00:00:00 -0500
-categories: svelte css magnum-pi trivia
 author: Jason Lutterloh
 ---
 

@@ -2,7 +2,6 @@
 layout: post
 title:  "Your Old Code is Bad... and That's Okay"
 date:   2020-07-08 00:00:00 -0500
-categories: learning
 author: Jason Lutterloh
 ---
 
