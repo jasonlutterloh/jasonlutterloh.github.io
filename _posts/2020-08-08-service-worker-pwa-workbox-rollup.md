@@ -1,11 +1,9 @@
 ---
 layout: post
-title:  "How to add a Service Worker to your Progressive Web App (PWA) using Workbox and Rollup"
-date:   2020-08-08 00:00:00 -0500
+title: "How to add a Service Worker to your Progressive Web App (PWA) using Workbox and Rollup"
+date: 2020-08-08 00:00:00 -0500
 author: Jason Lutterloh
 ---
-
-# How to add a Service Worker to your Progressive Web App (PWA) using Workbox and Rollup
 
 Recently, I converted one of my existing web apps into a PWA so that I could "install" it on my device and run it offline. I spent far too long researching how to properly add a service worker and found that for simple apps, most documentation is far too detailed. For a simple app, creating a service worker was actually pretty easy.
 

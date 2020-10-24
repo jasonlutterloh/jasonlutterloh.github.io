@@ -5,8 +5,6 @@ date:   2020-10-12 00:00:00 -0500
 author: Jason Lutterloh
 ---
 
-# An Elegant Svelte Trivia Quiz Application
-
 I was looking for a way to publish some trivia about one of my favorite shows (the original Magnum, P.I. TV series from the 1980s) and decided to build it using Svelte (my favorite JavaScript framework as of late). I wanted something that was simple, elegant, and could be easily used by any other developer to create their own trivia quiz. So, I built this and just published the source on GitHub.
 
 The app relies on one JSON file to house the questions and answers (and even followup information). Past that, the app keeps score in state and relies on Svelte's built-in transitions for seamless transitions.

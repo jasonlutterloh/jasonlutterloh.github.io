@@ -1,19 +1,17 @@
 ---
 layout: post
-title:  "Your Old Code is Bad... and That's Okay"
-date:   2020-07-08 00:00:00 -0500
+title: "Your Old Code is Bad... and That's Okay"
+date: 2020-07-08 00:00:00 -0500
 author: Jason Lutterloh
 ---
 
-# Your Old Code is Bad... and That's Okay
+Every once in awhile, I get the chance to look at some code I wrote in the past. Last week afforded me this chance as a coworker sent me a message and said, “Look whose name is on this changelog!”. Sure enough, it was some front end code I had written my first year on the job. It was appalling! I had used `<br />` tags in my HTML for styling purposes. The horror!
 
-Every once in awhile, I get the chance to look at some code I wrote in the past. Last week afforded me this chance as a coworker sent me a message and said, “Look whose name is on this changelog!”. Sure enough, it was some front end code I had written my first year on the job. It was appalling! I had used `<br />` tags in my HTML for styling purposes. The horror! 
-
-The crazy thing is, I remember obsessing about that code when I originally wrote it. I wanted it to be perfect in every way, down to the tab spacing before each line. When I checked in that code, I truly believed it was perfect. Thankfully, years later, I recognize it wasn’t. 
+The crazy thing is, I remember obsessing about that code when I originally wrote it. I wanted it to be perfect in every way, down to the tab spacing before each line. When I checked in that code, I truly believed it was perfect. Thankfully, years later, I recognize it wasn’t.
 
 One of my first mentors told me, “if you don’t look back on your old code after six months and see opportunity, you’re not growing and becoming a better developer”. I took that to heart but as I was reflecting on seeing my old code, I had two realizations.
 
-The first is that a developer must be graceful with himself or herself. Good developers spend immense amounts of energy crafting their code. Beyond being functional, “good code” must be easily readable, maintainable, performant, testable, extensible, secure, follow best practices, peer-reviewed, etc. This process takes time and effort (and courage in the case of the peer review) and yet when you come back to look at that code after not looking at it for six months, you’re going to find things you dislike. 
+The first is that a developer must be graceful with himself or herself. Good developers spend immense amounts of energy crafting their code. Beyond being functional, “good code” must be easily readable, maintainable, performant, testable, extensible, secure, follow best practices, peer-reviewed, etc. This process takes time and effort (and courage in the case of the peer review) and yet when you come back to look at that code after not looking at it for six months, you’re going to find things you dislike.
 
 How do you live with yourself? (Okay, maybe that’s a bit dramatic, but...)
 
