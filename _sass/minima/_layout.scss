@@ -16,12 +16,11 @@
   line-height: $base-line-height * $base-font-size * 2.25;
   letter-spacing: -1px;
   margin-bottom: 0;
+  margin-top: 60px;
   float: left;
-
-  &,
-  &:visited {
-    color: $grey-color-dark;
-  }
+  font-size: 28px;
+  line-height: 32px;
+  font-family: 'VT323', monospace;
 }
 
 .site-nav {
@@ -185,7 +184,9 @@
 }
 
 .post-list-heading {
-  @include relative-font-size(1.75);
+  font-size: 24px;
+    line-height: 32px;
+    font-family: 'VT323', monospace;
 }
 
 .post-list {
@@ -200,6 +201,7 @@
 .post-meta {
   font-size: $small-font-size;
   color: $grey-color;
+  font-family: 'VT323', monospace;
 }
 
 .post-link {

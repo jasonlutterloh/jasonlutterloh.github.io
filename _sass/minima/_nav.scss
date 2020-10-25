@@ -1,0 +1,49 @@
+.nav {
+    position: fixed;
+    font-family: 'VT323', monospace;
+    font-size: 16px;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background:#282828;
+    color:#ffb000;
+    width: 100vw;
+  }
+
+  .nav-list {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 600px;
+  }
+
+  /* clearfix */
+  .nav-list::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  .nav-list-item {
+    display: block;
+    float: left;
+  }
+
+  a[aria-current] {
+    background: #ffb000 ;
+    color:#282828 !important;
+  }
+
+  .nav-link {
+    color: #ffb000 ;
+    text-decoration: none;
+    text-transform: lowercase;
+    padding: 10px;
+    line-height: 1em;
+    display: block;
+  }
+  .nav-link:hover,
+  .nav-link:focus,
+  .nav-link:visited{
+    color: #ffb000 ;
+    text-decoration: underline;
+  }

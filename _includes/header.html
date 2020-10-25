@@ -5,4 +5,5 @@
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
   </div>
+  {%- include nav.html -%}
 </header>
