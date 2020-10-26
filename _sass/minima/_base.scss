@@ -40,7 +40,9 @@ ul, ol, dl, figure,
   margin-bottom: $spacing-unit / 2;
 }
 
-
+.site-header h1{
+  margin: 0
+}
 
 /**
  * `main` element
