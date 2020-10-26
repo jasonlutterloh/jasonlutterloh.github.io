@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Upgrading Peloton Metrics's Data Input Method (A Data Transformation Success Story)"
+title: "Upgrading Peloton Metrics's Data Input Method"
 date: 2020-07-25 00:00:00 -0500
 author: Jason Lutterloh
 ---
