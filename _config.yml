@@ -21,7 +21,7 @@
 title: lutterloh.dev
 tagline: Blog
 email: 
-description: Blog
+description: Blog by Jason Lutterloh | lutterloh.dev
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.lutterloh.dev" # the base hostname & protocol for your site, e.g. http://example.com
 logo: /assets/favicon@2x.png
