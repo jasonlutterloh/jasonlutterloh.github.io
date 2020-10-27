@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: lutterloh.dev
+title: Blog by Jason Lutterloh
 tagline: Blog
 email: 
-description: Blog by Jason Lutterloh
+description: Articles about web development, privacy, and more
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.lutterloh.dev" # the base hostname & protocol for your site, e.g. http://example.com
 logo: /assets/favicon@2x.png
