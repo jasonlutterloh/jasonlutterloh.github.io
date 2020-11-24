@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Blog by Jason Lutterloh
+title: Jason's Blog
 tagline: Blog
 email: 
 description: Articles about web development, privacy, and more
