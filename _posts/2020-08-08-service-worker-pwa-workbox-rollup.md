@@ -86,7 +86,7 @@ npm run build
 
 When you run your build, four files will be created. You'll want them on your server but not necessarily in your git project so add this to your `.gitignore`.
 
-```markup
+```plaintext
 # Service Worker
 **/workbox*
 **/sw*

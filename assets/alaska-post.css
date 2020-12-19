@@ -1,0 +1,41 @@
+.post-title{
+  font-size: 3em;
+  line-height: 1.1em;
+}
+.post-meta{
+  font-style: italic;
+}
+code.highlighter-rouge{
+  padding: 2px 4px;
+    color: rgba(0,0,0,.8);
+    background-color: rgba(0,0,0,.075);
+    border-radius: 3px;
+}
+.post-content a,
+.post-content a:visited{
+  color: #01426A; 
+}
+.post-content a:hover,
+.post-content a:focus{
+  color: #0074C8; 
+}
+blockquote{
+  font-style: italic;
+}
+blockquote p{
+  border-left: 4px solid #008568;
+  padding-left: 8px;
+}
+.back-link{
+  background: url("/assets/arrow-left-circle.svg") no-repeat;
+  color: #222;
+  display: block;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 30px;
+  padding-left: 28px;
+}
+.back-link:hover,
+.back-link:focus{
+  color: #008568
+}

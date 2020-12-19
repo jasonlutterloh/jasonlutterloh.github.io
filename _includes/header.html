@@ -1,8 +1,13 @@
-<header class="site-header" role="banner">
-
-  <div class="wrapper">
-    {%- assign default_paths = site.pages | map: "path" -%}
-    {%- assign page_paths = site.header_pages | default: default_paths -%}
-    <h1><a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a></h1>
-  </div>
+<header class="header">
+  <h1 class="site-title">
+    Jason Lutterloh
+  </h1>
+  <ul class="links">
+    <li class="links-item"><a class="link" target="_blank" rel="noopener"
+        href="https://lutterloh.dev"><img src="/assets/globe.svg" alt="Website" /></a></li>
+    <li class="links-item"><a class="link" target="_blank" rel="noopener"
+        href="https://github.com/jasonlutterloh"><img src="/assets/github.svg" alt="GitHub" /></a></li>
+    <li class="links-item"><a class="link" target="_blank" rel="noopener"
+        href="https://codepen.io/jasonlutterloh"><img src="/assets/codepen.svg" alt="Codepen" /></a></li>
+  </ul>
 </header>

@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Jason's Blog
+title: Jason Lutterloh
 tagline: Blog
 email: 
 description: Articles about web development, privacy, and more
@@ -32,6 +32,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+show_excerpts: false
 
 # Exclude from processing.
 # The following items will not be processed, by default.

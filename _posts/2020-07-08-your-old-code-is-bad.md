@@ -3,9 +3,12 @@ layout: post
 title: "Your Old Code is Bad... and That's Okay"
 date: 2020-07-08 00:00:00 -0500
 author: Jason Lutterloh
+excerpt_separator: <!--more-->
 ---
 
 Every once in awhile, I get the chance to look at some code I wrote in the past. Last week afforded me this chance as a coworker sent me a message and said, “Look whose name is on this changelog!”. Sure enough, it was some front end code I had written my first year on the job. It was appalling! I had used `<br />` tags in my HTML for styling purposes. The horror!
+
+<!--more-->
 
 The crazy thing is, I remember obsessing about that code when I originally wrote it. I wanted it to be perfect in every way, down to the tab spacing before each line. When I checked in that code, I truly believed it was perfect. Thankfully, years later, I recognize it wasn’t.
 

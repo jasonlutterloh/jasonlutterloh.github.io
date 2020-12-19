@@ -1,0 +1,90 @@
+html{
+  background: #F7F7F7;
+  background: linear-gradient(-35deg, #E8E8E8 0%, #f7f7f7 100%) no-repeat center center fixed; 
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+body{
+  color: #222;
+  display: flex;
+  height: 100%;
+  padding: 0 4vw;
+  margin: 0;
+  flex-direction: column-reverse;
+  font-family: 'Roboto', serif;
+}
+.header{
+  text-align: right;
+  flex-shrink: 0;
+}
+main{
+  flex: 1 0 auto;
+  max-width: 800px;
+}
+h1, h2{
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+  text-transform: lowercase;
+  letter-spacing: 1px;
+}
+.site-title{
+  font-size: 4em;
+  margin: 0;
+}
+h2{
+  font-size: 3em;
+}
+h3{
+  font-size: 1em;
+}
+.post-list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.post-list li{
+  padding: 20px 20px 20px 0;
+  margin: 20px 20px 20px 0;
+}
+.post-link{
+    color: #222;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    font-weight: normal;
+    line-height: 1em;
+    transition: color .5s;
+    text-transform: lowercase;
+    text-decoration: none;;
+}
+.post-link:visited{
+  color: #222;
+}
+.post-link:hover, .post-link:focus{
+  color: #008568;
+}
+
+.links{
+  list-style: none;
+  margin: 0 0 30px 0;
+  display: flex;
+  justify-content: flex-end;
+}
+.links-item{
+  flex: 0 1 auto;
+}
+.links-item .link{
+  margin: 0 20px;
+}
+.links-item:last-of-type .link{
+  margin-right: 0;
+}
+a,
+a:visited{
+  color: #222;
+  transition: color .5s;
+}
+a:hover, a:focus{
+  color: #008568;
+}

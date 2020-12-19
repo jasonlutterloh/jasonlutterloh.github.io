@@ -19,7 +19,7 @@ Sure, other frameworks allow for this too. I’ve built a number of React apps t
 
 With Svelte, I decided to go all-in and try out what it had to offer out of the box. If you aren't familiar, a Svelte component takes on the following structure:
 
-```markup
+```html
 <script>
   let name = 'world';
 </script>
@@ -47,7 +47,7 @@ h1.svelte-rbuihw {
 
 alongside HTML that would look like:
 
-```markup
+```html
 <h1 class="svelte-rbuihw">Hello world!</h1>
 ```
 
