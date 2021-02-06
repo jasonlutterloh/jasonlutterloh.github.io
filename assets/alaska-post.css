@@ -39,3 +39,5 @@ blockquote p{
 .back-link:focus{
   color: #008568
 }
+
+img[alt=Mermaid] { width: 100%; max-width: 500px}
