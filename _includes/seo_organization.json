@@ -1,0 +1,11 @@
+{
+  "@type": "Organization",
+  "name": "lutterloh.dev",
+  "description": "Home of Jason Lutterloh's projects and blog",
+  "sameAs": "https://lutterloh.dev",
+  "logo": {
+      "@type": "ImageObject",
+      "url": "https://lutterloh.dev/img/favicon@2x.png/"
+  },
+  "founder": {% include seo_person.json %}
+}

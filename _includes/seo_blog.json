@@ -1,0 +1,9 @@
+{
+  "@context": "http://schema.org",
+  "@type": ["CreativeWork", "Blog"],
+  "name": "{{site.title}}",
+  "description": "{{site.description}}",
+  "url": "{{site.url}}",
+  "logo": "{{site.logo}}",
+  "publisher":{% include seo_organization.json %}
+}

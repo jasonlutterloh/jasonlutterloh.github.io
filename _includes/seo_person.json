@@ -1,0 +1,21 @@
+{
+  "@type": "Person",
+  "name": "Jason Lutterloh",
+  "description":  "Jason Lutterloh is a full-stack software engineer.",
+  "sameAs": [
+    "https://github.com/jasonlutterloh",
+    "https://dev.to/jasonlutterloh",
+    "https://hashnode.com/@jasonlutterloh",
+    "https://jason-lutterloh.medium.com/"
+  ],
+  "url":"https://lutterloh.dev",
+  "image": {
+      "@type": "ImageObject",
+      "url": "/assets/mug.png"
+  },
+  "givenName": "Jason",
+  "familyName": "Lutterloh",
+  "alternateName": "jasonlutterloh",
+  "jobTitle": "Senior Full-Stack Software Engineer",
+  "knowsAbout": ["HTML", "CSS", "Javascript", "REST APIs", "Websphere", "JSON", "GitHub", "Svelte", "React", "Node", "Web Development", "AWS", "Google Assistant", "qTest", "Jira", "Agile"]
+}
