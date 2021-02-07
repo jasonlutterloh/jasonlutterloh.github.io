@@ -18,15 +18,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Jason Lutterloh
-tagline: Blog
-email: 
+title: Jason Lutterloh's Blog 
 description: Articles about web development, privacy, and more
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.lutterloh.dev" # the base hostname & protocol for your site, e.g. http://example.com
 logo: /assets/favicon@2x.png
 github_username:  jasonlutterloh
 author: Jason Lutterloh
+author_image: /assets/mug.png
+author_description: Jason Lutterloh is a full-stack software engineer.
+author_url: https://lutterloh.dev
 # Build settings
 theme: minima
 plugins:
