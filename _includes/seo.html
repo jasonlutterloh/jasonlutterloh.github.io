@@ -24,41 +24,63 @@
       "isPartOf": {
         "@type": ["CreativeWork", "Product", "Blog"],
         "name": "{{site.title}}",
-        "productID": "lutterloh.dev"
+        "url": "{{site.url}}"
       },
       "author": {
         "@type": "Person",
         "name": "{{site.author}}",
         "description": "{{site.author_description}}",
-        "sameAs": "{{site.author_url}}",
+        "sameAs": [
+          "https://github.com/jasonlutterloh",
+          "https://dev.to/jasonlutterloh",
+          "https://hashnode.com/@jasonlutterloh"
+        ],
+        "url":"{{site.author_url}}",
         "image": {
             "@type": "ImageObject",
             "url": "{{site.author_image}}"
         },
         "givenName": "Jason",
         "familyName": "Lutterloh",
-        "alternateName": "{{site.github_username}}"
+        "alternateName": "{{site.github_username}}",
+        "jobTitle": "Senior Full-Stack Software Engineer",
+        "knowsAbout": ["HTML", "CSS", "Javascript", "REST APIs", "Websphere", "JSON", "GitHub", "Svelte", "React", "Node", "Web Development", "AWS", "Google Assistant", "qTest", "Jira", "Agile"]
       },
       "publisher":{
         "@type": "Organization",
         "name": "{{site.title}}",
         "description": "{{site.description}}",
         "sameAs": "{{site.url}}",
-        "logo": {
-            "@type": "ImageObject",
-            "url": "{{site.logo}}"
-        }
+        "logo": "{{site.logo}}"
       },
-      "image":{
-        "@type": "ImageObject",
-        "url": "{{site.logo}}"
-      }
+      "image": "{{site.logo}}"
     {% else %}
-      "@type": "Organization",
+      "@type": ["CreativeWork", "Blog"],
       "name": "{{site.title}}",
       "description": "{{site.description}}",
       "url": "{{site.url}}",
-      "logo": "{{site.logo}}"
+      "logo": "{{site.logo}}",
+      "publisher":{
+        "@type": "Person",
+        "name": "{{site.author}}",
+        "description": "{{site.author_description}}",
+        "sameAs": [
+          "https://github.com/jasonlutterloh",
+          "https://dev.to/jasonlutterloh",
+          "https://hashnode.com/@jasonlutterloh",
+          "https://jason-lutterloh.medium.com/"
+        ],
+        "url":"{{site.author_url}}",
+        "image": {
+            "@type": "ImageObject",
+            "url": "{{site.author_image}}"
+        },
+        "givenName": "Jason",
+        "familyName": "Lutterloh",
+        "alternateName": "{{site.github_username}}",
+        "jobTitle": "Senior Full-Stack Software Engineer",
+        "knowsAbout": ["HTML", "CSS", "Javascript", "REST APIs", "Websphere", "JSON", "GitHub", "Svelte", "React", "Node", "Web Development", "AWS", "Google Assistant", "qTest", "Jira", "Agile"]
+      }
     {% endif %}
     }
   </script>
