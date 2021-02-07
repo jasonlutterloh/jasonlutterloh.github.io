@@ -47,12 +47,26 @@
         "knowsAbout": ["HTML", "CSS", "Javascript", "REST APIs", "Websphere", "JSON", "GitHub", "Svelte", "React", "Node", "Web Development", "AWS", "Google Assistant", "qTest", "Jira", "Agile"]
       },
       "publisher":{
-        "@type": "Organization",
-        "name": "{{site.title}}",
-        "description": "{{site.description}}",
-        "sameAs": "{{site.url}}",
-        "logo": "{{site.logo}}"
-      },
+        "@type": "Person",
+        "name": "{{site.author}}",
+        "description": "{{site.author_description}}",
+        "sameAs": [
+          "https://github.com/jasonlutterloh",
+          "https://dev.to/jasonlutterloh",
+          "https://hashnode.com/@jasonlutterloh",
+          "https://jason-lutterloh.medium.com/"
+        ],
+        "url":"{{site.author_url}}",
+        "image": {
+            "@type": "ImageObject",
+            "url": "{{site.author_image}}"
+        },
+        "givenName": "Jason",
+        "familyName": "Lutterloh",
+        "alternateName": "{{site.github_username}}",
+        "jobTitle": "Senior Full-Stack Software Engineer",
+        "knowsAbout": ["HTML", "CSS", "Javascript", "REST APIs", "Websphere", "JSON", "GitHub", "Svelte", "React", "Node", "Web Development", "AWS", "Google Assistant", "qTest", "Jira", "Agile"]
+      }
       "image": "{{site.logo}}"
     {% else %}
       "@type": ["CreativeWork", "Blog"],
