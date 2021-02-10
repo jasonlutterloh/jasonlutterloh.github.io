@@ -22,7 +22,7 @@ Context to be aware of:
 This will install the package that runs to generate your service worker.
 
 ```bash
-npm install rollup-plugin-workbox --save-dev
+npm install rollup-plugin-workbox
 ```
 
 ### Step 2: Add the generation step to your Rollup config\*\*
