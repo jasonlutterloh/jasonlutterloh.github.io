@@ -113,5 +113,5 @@ There's a lot more detail in the official documentation but hopefully this gets 
 
 Sources:
 
-- <https://developers.google.com/web/tools/workbox>
-- <https://www.npmjs.com/package/rollup-plugin-workbox>
+- [Workbox](https://developers.google.com/web/tools/workbox)
+- [Workbox Rollup Plugin](https://www.npmjs.com/package/rollup-plugin-workbox)
