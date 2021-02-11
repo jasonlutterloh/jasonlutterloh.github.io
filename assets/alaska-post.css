@@ -40,4 +40,5 @@ blockquote p{
   color: #008568
 }
 
-img[alt=Mermaid] { width: 100%; max-width: 500px}
+img[alt=Mermaid],
+img[alt='Crypto Holdings Value Monitor'] { width: 100%; max-width: 500px}
