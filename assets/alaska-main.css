@@ -88,3 +88,17 @@ a:visited{
 a:hover, a:focus{
   color: #008568;
 }
+
+@media only screen and (max-width: 568px) {
+  .site-title,
+  .post-list-heading{
+    font-size: 2em;
+  }
+  .post-link{
+    font-size: 1.4em;
+  }
+  .post-list li {
+    padding: 0 20px 10px 0;
+    margin: 0 20px 10px 0;
+}
+}
