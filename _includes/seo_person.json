@@ -11,7 +11,7 @@
   "url":"https://lutterloh.dev",
   "image": {
       "@type": "ImageObject",
-      "url": "/assets/mug.png"
+      "url": "/assets/favicon@2x.png"
   },
   "givenName": "Jason",
   "familyName": "Lutterloh",
