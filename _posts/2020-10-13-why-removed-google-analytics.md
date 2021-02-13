@@ -40,3 +40,5 @@ There's four primary answers to that question:
 4. "Yes, and I'll put my money where my mouth is."
 
 I don't think there's anything wrong with any of those answers. I do think it's important to understand what we're doing with our data and to be conscious about it, however. In my case, it felt wrong to infringe on people's privacy using tracking cookies that I knew I was blocking on my own computer.
+
+UPDATE: I did try out Cloudflare analytics for a little bit since it claimed to be a privacy-friendly analytics provider. It was pretty simple in what it provided and felt privacy-conscious. However, I didn't like that my site had a yellow box underneath the Privacy Badger, so I ended up removing it.
