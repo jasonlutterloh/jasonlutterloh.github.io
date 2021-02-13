@@ -18,6 +18,8 @@ First things first, start a new Svelte app. Check out [Svelte's official Getting
 
 This tutorial will walk you through the hypothetical use case of calling an API to get a list of whiskey cocktails and displaying them. The data we're going to be working with will be in the following format:
 
+<sub>Free API provided by [https://www.thecocktaildb.com](TheCocktailDB)</sub>
+
 ```json
 {
   "drinks":[
