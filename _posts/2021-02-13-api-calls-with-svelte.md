@@ -30,7 +30,7 @@ This tutorial will walk you through the hypothetical use case of calling an API 
 
 ### Step 1: Create Your Data Store
 
-Okay, within your new app, create a new file inside your `src` folder entitled `store.js`. This is where you'll "store" the data you pull from your API as well as do any data transformation (Optional).
+Okay, within your new app, create a new file inside your `src` folder entitled `store.js`. This is where you'll "store" the data you pull from your API as well as do any data transformation.
 
 Once you've created `store.js`, add the following code:
 
