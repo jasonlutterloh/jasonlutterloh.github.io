@@ -47,6 +47,9 @@ li{
 img[alt=Mermaid],
 img[alt='Crypto Holdings Value Monitor'] { width: 100%; max-width: 500px}
 
+.post-content h2{
+  font-size: 1.4em;
+}
 @media only screen and (max-width: 568px) {
   .post-title{
     font-size: 2em;
