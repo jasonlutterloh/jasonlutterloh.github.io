@@ -10,7 +10,7 @@ There's plenty of ways to do make API calls from within a Svelte app but I'd lik
 
 Demo:  [Svelte REPL - Demo](https://svelte.dev/repl/cb31be94ea444b41a11d1320d16ba6dc?version=3.32.3)
 
-## Prerequisties
+## Prerequisites
 
 First things first, start a new Svelte app. Check out [Svelte's official Getting Started guide](https://svelte.dev/blog/the-easiest-way-to-get-started#2_Use_degit) for that.
 
