@@ -3,10 +3,13 @@ layout: post
 title: "Making API Calls Within a Svelte App"
 date: 2021-02-13 00:00:00 -0500
 author: Jason Lutterloh
+excerpt_separator: <!--more-->
 image: /assets/posts/post_apisvelte.png
 ---
 
 There's plenty of ways to do make API calls from within a Svelte app but I'd like to share the approach that's worked for me.
+
+<!--more-->
 
 Demo:  [Svelte REPL - Demo](https://svelte.dev/repl/cb31be94ea444b41a11d1320d16ba6dc?version=3.32.3)
 

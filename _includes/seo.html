@@ -2,11 +2,16 @@
   <meta property="og:title" content="Jason Lutterloh" />
   <meta name="author" content="Jason Lutterloh" />
   <meta property="og:locale" content="en_US" />
+  {% if page.id %}
+  <meta name="description" content="{{ page.excerpt  | remove: '<p>' | remove: '</p>'}}" />
+  <meta property="og:description" content="{{ page.excerpt  | remove: '<p>' | remove: '</p>'}}" />
+  {% else %}
   <meta name="description" content="Articles about web development, privacy, and more" />
   <meta property="og:description" content="Articles about web development, privacy, and more" />
-  <link rel="canonical" href="https://blog.lutterloh.dev/" />
-  <meta property="og:url" content="https://blog.lutterloh.dev/" />
-  <meta property="og:site_name" content="{{site.title}}" />
+  {% endif %}
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+  <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+  <meta property="og:site_name" content="{% if page.id %} {{page.title}} | {% endif %}{{site.title}}" />
   <script type="application/ld+json">
     {% if page.id %}
     {
