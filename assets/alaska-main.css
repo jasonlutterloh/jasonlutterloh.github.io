@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url('/assets/fonts/poppins-regular-webfont.woff2') format('woff2'),
+       url('/assets/fonts/poppins-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 html{
   background: #F7F7F7;
   background: linear-gradient(-35deg, #E8E8E8 0%, #f7f7f7 100%) no-repeat center center fixed; 
