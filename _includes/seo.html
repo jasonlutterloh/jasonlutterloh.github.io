@@ -1,17 +1,17 @@
   <title>{% if page.id %} {{page.title}} | {% endif %}{{site.title}}</title>
-  <meta property="og:title" content="Jason Lutterloh" />
+  <meta property="og:title" content="{% if page.id %} {{page.title}} | {% endif %}{{site.title}}" />
   <meta name="author" content="Jason Lutterloh" />
   <meta property="og:locale" content="en_US" />
   {% if page.id %}
-  <meta name="description" content="{{ page.excerpt  | remove: '<p>' | remove: '</p>'}}" />
-  <meta property="og:description" content="{{ page.excerpt  | remove: '<p>' | remove: '</p>'}}" />
+  <meta name="description" content="{{ page.excerpt  | remove: '<p>' | remove: '</p>' | strip}}" />
+  <meta property="og:description" content="{{ page.excerpt  | remove: '<p>' | remove: '</p>' | strip}}" />
   {% else %}
   <meta name="description" content="Articles about web development, privacy, and more" />
   <meta property="og:description" content="Articles about web development, privacy, and more" />
   {% endif %}
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
-  <meta property="og:site_name" content="{% if page.id %} {{page.title}} | {% endif %}{{site.title}}" />
+  <meta property="og:site_name" content="{{site.title}}" />
   <script type="application/ld+json">
     {% if page.id %}
     {
