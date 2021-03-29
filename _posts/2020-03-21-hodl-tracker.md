@@ -11,8 +11,6 @@ A month ago I published an open source app called Crypto Value Monitor (worst na
 
 **So, I gutted the whole thing and re-built it.**
 
-<!--More-->
-
 ## Introducing HODL Tracker
 
 My new description for the app is "A Progressive Web App that will allow you to securely keep track of your crypto holdings' value without complicated sign-ins or APIs."

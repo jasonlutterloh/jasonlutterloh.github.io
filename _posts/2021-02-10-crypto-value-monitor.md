@@ -9,8 +9,6 @@ image: /assets/posts/post_crypto.png
 
 If you have been looking for a simple way to monitor the value of all of your crypto holdings in one place, this project might interest you.
 
-<!--more-->
-
 ![Crypto Holdings Value Monitor](/assets/posts/post_crypto.png)
 
 My original problem was that I didn't like having to login to 4 or 5 different apps/sites to check on the value of the different cryptocurrency holdings I had spread among the variety of wallets/services. I wanted one screen with all my holdings and how much it was worth. I tried a few apps that are supposed to do this but they all felt clunky, tried to do too much, made me worried about security/privacy, used API keys I didn't want to mess with, etc. So, this project was born...
