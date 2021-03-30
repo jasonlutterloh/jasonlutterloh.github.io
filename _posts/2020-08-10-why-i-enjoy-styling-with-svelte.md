@@ -3,6 +3,7 @@ layout: post
 title: "Why I Enjoy Styling With Svelte"
 date: 2020-07-10 00:00:00 -0500
 author: Jason Lutterloh
+excerpt: "Svelte is the perfect fit I was looking for and I'll explain why."
 image: /assets/posts/post_svelte.png
 ---
 

@@ -4,6 +4,7 @@ title: "New Project: Crypto Value Monitor"
 date: 2021-02-10 00:00:00 -0500
 author: Jason Lutterloh
 excerpt_separator: <!--more-->
+excerpt: "If you have been looking for a simple way to monitor the value of all of your crypto holdings in one place, this project might interest you."
 image: /assets/posts/post_crypto.png
 ---
 
