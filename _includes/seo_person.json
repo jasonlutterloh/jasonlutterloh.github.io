@@ -1,18 +1,19 @@
 {
   "@type": "Person",
   "name": "Jason Lutterloh",
-  "description":  "Jason Lutterloh is a full-stack software engineer.",
+  "description":  "Jason Lutterloh is a full-stack software engineer lead.",
   "sameAs": [
     "https://github.com/jasonlutterloh",
     "https://dev.to/jasonlutterloh",
     "https://hashnode.com/@jasonlutterloh",
     "https://jason-lutterloh.medium.com/",
-    "https://hackernoon.com/u/jasonlutterloh"
+    "https://hackernoon.com/u/jasonlutterloh",
+    "https://linkedin.com/in/jasonlutterloh"
   ],
   "url":"https://lutterloh.dev",
   "image": {
       "@type": "ImageObject",
-      "url": "/assets/favicon@2x.png"
+      "url": "/assets/mug.png"
   },
   "givenName": "Jason",
   "familyName": "Lutterloh",
