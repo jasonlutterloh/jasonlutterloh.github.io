@@ -6,6 +6,7 @@ author: Jason Lutterloh
 excerpt_separator: <!--more-->
 image: /assets/posts/post_crypto.png
 excerpt: "Introduction to HODL Monitor - A Progressive Web App that will allow you to securely keep track of your crypto holdings' value without complicated sign-ins or APIs."
+canonical: https://lutterloh.dev/posts/2021-03-21-hodl-tracker/
 ---
 
 A month ago I published an open source app called Crypto Value Monitor (worst name ever). The app was super simple and was only geared at crypto hodlers who were also developers and knew how to run a web app locally. Unfortunately, I quickly realized even I didn't want to use this app if it wasn't available on my phone.

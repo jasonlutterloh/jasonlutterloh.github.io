@@ -6,6 +6,7 @@ author: Jason Lutterloh
 excerpt_separator: <!--more-->
 excerpt: "There's plenty of ways to do make API calls from within a Svelte app but I'd like to share the approach that's worked for me."
 image: /assets/posts/post_apisvelte.png
+canonical: https://lutterloh.dev/posts/2021-02-13-api-calls-with-svelte/
 ---
 
 There's plenty of ways to do make API calls from within a Svelte app but I'd like to share the approach that's worked for me.

@@ -5,6 +5,7 @@ date: 2020-07-08 00:00:00 -0500
 author: Jason Lutterloh
 excerpt_separator: <!--more-->
 image: /assets/posts/post_code.jpg
+canonical: https://lutterloh.dev/posts/2020-07-08-your-old-code-is-bad/
 ---
 
 Every once in awhile, I get the chance to look at some code I wrote in the past. Last week afforded me this chance as a coworker sent me a message and said, “Look whose name is on this changelog!”. Sure enough, it was some front end code I had written my first year on the job. It was appalling! I had used `<br />` tags in my HTML for styling purposes. The horror!

@@ -6,6 +6,7 @@ author: Jason Lutterloh
 excerpt_separator: <!--more-->
 excerpt: "If you have been looking for a simple way to monitor the value of all of your crypto holdings in one place, this project might interest you."
 image: /assets/posts/post_crypto.png
+canonical: https://lutterloh.dev/posts/2021-02-10-crypto-value-monitor/
 ---
 
 If you have been looking for a simple way to monitor the value of all of your crypto holdings in one place, this project might interest you.

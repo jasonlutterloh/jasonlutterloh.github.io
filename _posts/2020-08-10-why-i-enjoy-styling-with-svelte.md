@@ -5,6 +5,7 @@ date: 2020-07-10 00:00:00 -0500
 author: Jason Lutterloh
 excerpt: "Svelte is the perfect fit I was looking for and I'll explain why."
 image: /assets/posts/post_svelte.png
+canonical: https://lutterloh.dev/posts/2020-08-10-why-i-enjoy-styling-with-svelte/
 ---
 
 I started using Svelte a couple of months ago for my [Peloton Metrics](https://github.com/jasonlutterloh/metrics-peloton) project with the promise that it would lead to a simple development process. I’ve used React in the past for enterprise-level applications but it always seemed like overkill for what I was doing in my spare time and I never liked how it handled styling. Svelte is the perfect fit I was looking for and I'll explain why.

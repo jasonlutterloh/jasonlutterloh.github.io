@@ -9,8 +9,8 @@
   <meta name="description" content="Articles about web development, privacy, and more" />
   <meta property="og:description" content="Articles about web development, privacy, and more" />
   {% endif %}
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
-  <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+  <link rel="canonical" href="{{ page.canonical }}" />
+  <meta property="og:url" content="{{ page.canonical }}" />
   <meta property="og:site_name" content="{{site.title}}" />
   <meta name="monetization" content="$ilp.uphold.com/hPxpjwGeGw3h">
   <script type="application/ld+json">

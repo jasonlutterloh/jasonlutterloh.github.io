@@ -5,6 +5,7 @@ date: 2020-07-25 00:00:00 -0500
 author: Jason Lutterloh
 image: /assets/posts/post_code2.png
 excerpt: "This article explores upgrading the Peloton Metrics app to use a CSV upload instead of a pasted JSON response for data input and how a small JavaScript data transformation method made this change simple and easy."
+canonical: https://lutterloh.dev/posts/2020-07-25-data-transformation-success/
 ---
 
 This article explores upgrading the [Peloton Metrics](https://peloton.lutterloh.dev) app to use a CSV upload instead of a pasted JSON response for data input and how a small JavaScript data transformation method made this change simple and easy.
